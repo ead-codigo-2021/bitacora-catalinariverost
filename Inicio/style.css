@@ -1,0 +1,138 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Header*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(268, 32%, 92%, 0.397), #D3CCE3), url(../imagenes/fondo.jpg);
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(268, 32%, 92%, 0.397), #D3CCE3), url(../imagenes/fondo.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}   
+
+nav > a{
+   color: rgb(192, 102, 102);
+   font-weight: 300;
+   text-decoration: none;
+   margin-right: 10px;
+}   
+
+nav > a:hover{
+   text-decoration: underline;
+} 
+
+h1{
+   color: black;
+   font-size: 30px;
+   text-align: center;
+   margin: 80px;
+}
+h2{
+   color: rgba(0, 0, 0, 0.294);
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.wave{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.contenedor{ 
+    padding: 60px 0;
+    width: 90%;
+    margin: auto;
+    display: inline-flex;
+}
+
+ .contenedor>img{ 
+    width: 50%;
+}
+
+h3{
+    color: rgb(141, 120, 218);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* numero */
+
+.contenido-textos span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+     padding: 2px;
+     box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+     padding: 5px;
+}
+.contenido-textos p{
+padding: 0px 0px 30px 15px;
+font-weight: 300;
+text-align: justify;
+}
+
+/* footer */
+footer{
+    background: #f4e7d4;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #27242a;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: rgba(2, 1, 1, 0);
+    border-bottom: 3px solid #000000c5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #84b09b;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    color: #000000;
+}
+
