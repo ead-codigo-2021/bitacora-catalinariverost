@@ -23,6 +23,13 @@ nav{
     padding: 30px 50px 0 0;
 } 
 
+nav > a{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 30px;
+ } 
+
 h1{
     color: black;
     font-size: 30px;
@@ -84,8 +91,9 @@ h3 {
 
 
 /* footer */
+
 footer{
-    background: #f4e7d4;
+    background: #b2c9b5;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -97,7 +105,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #27242a;
+    border-bottom: 1px solid #eaeaea;
 }
 
 .content-foo{
@@ -105,20 +113,20 @@ footer{
 }
 
 .content-foo h4{
-    color: rgba(2, 1, 1, 0);
-    border-bottom: 3px solid #000000c5;
+    color: #373838 ;
+    font-size: 18px;
+    border-bottom: 3px solid #eaeaea;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .content-foo p{
-    color: #84b09b;
+    color: #373838 ;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 14px;
     margin: 20px 0 0 0;
-    color: #000000;
+    color: #f7f4f0;
 }
-
