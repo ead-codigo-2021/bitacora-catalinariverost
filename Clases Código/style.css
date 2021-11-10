@@ -83,7 +83,7 @@ body{
 
 .card{
     width: 100%;
-    margin: 20px;
+    margin: 40px;
     border-radius: 6px;
     overflow: hidden;
     background: #fff;
@@ -100,7 +100,7 @@ body{
 
 .card img{
    width: 100%;
-   height: auto;
+   height: 40vh ;
 
 }    
 
@@ -137,3 +137,44 @@ body{
    background: #2fb4cc;
    color: #fff;
 }    
+
+/* footer */
+
+footer{
+    background: #cfc4c3 ;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #373838 ;
+    font-size: 18px;
+    border-bottom: 3px solid #eaeaea;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #373838 ;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    color: #f7f4f0;
+}
