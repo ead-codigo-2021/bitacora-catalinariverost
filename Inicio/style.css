@@ -37,7 +37,7 @@ nav > a{
 
 nav > a:hover{
    text-decoration: underline;
-} 
+}  
 
 h1{
    color: black;
@@ -59,18 +59,17 @@ width: 100%;
 }
 
 .contenedor{ 
-    padding: 90px 0 0 0;
     width: 90%;
     margin: auto;
     display: inline-flex;
 }
 
  .contenedor>img{ 
-    width: 50%;
+    width: 45%;
 }
 
 h3{
-    color: rgb(0, 0, 0);
+    color: rgb(189, 105, 105);
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
@@ -80,21 +79,24 @@ h3{
 /* numero */
 
 .contenido-textos span{
-    background: #000000;
-    color: #fff;
+    background: #d69e9e;
+    color: rgb(0, 0, 0);
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     width: 30px;
     height: 30px;
-     padding: 2px;
+     padding: 200px;
      box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
      padding: 5px;
 }
-.contenido-textos p{
-padding: 0 0px 30px 15px;
-font-weight: 300;
-text-align: justify;
+
+
+  .contenido-textos p{
+   padding: 0 0px 30px 15px;
+   font-weight: 30px;
+   text-align: justify;
+   font-size: 20px;
 }
 
 /* footer */
@@ -116,24 +118,24 @@ footer{
 }
 
 .content-foo{
-    text-align: center;
+  text-align: center;
 }
 
 .content-foo h4{
-    color: #373838 ;
-    font-size: 18px;
-    border-bottom: 3px solid #eaeaea;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+  color: #373838 ;
+  font-size: 18px;
+  border-bottom: 3px solid #eaeaea;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .content-foo p{
-    color: #373838 ;
+  color: #373838 ;
 }
 
 .titulo-final{
-    text-align: center;
-    font-size: 14px;
-    margin: 20px 0 0 0;
-    color: #f7f4f0;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  color: #f7f4f0;
 }
